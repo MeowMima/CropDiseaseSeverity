@@ -1,0 +1,44 @@
+#PYTHON
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Env
+venv/
+.venv/
+env/
+ENV/
+
+#Secrets/Env
+.env
+.env.*
+!.env.example
+
+#Streamlit
+.streamlit/secrets.toml
+
+#IDE/Editor
+.vscode/
+.ide
+
+#Jupyter
+.ipynb_checkpoints/
+
+#OS Files
+.DS_Store
+Thumbs.db
+
+#ML Model Weights
+*.pt
+*.pth
+*.onnx
+*.keras
+*.h5
+
+#Generated Outputs
+outputs/
+runs/
+
+#Temporary files
+*.tmp
+*.temp
